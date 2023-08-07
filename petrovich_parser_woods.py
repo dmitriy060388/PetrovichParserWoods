@@ -92,3 +92,4 @@ for i in response:
     with open('woods.csv', 'a', newline='') as file: # открывем файл на дозапись (обязательно, иначе перезатрём данные из цикла)
             writer = csv.writer(file) # сохраняем результат функции writer в переменную writer
             writer.writerow([title, gold]) # записываем в csv файл нужные ключи
+варлар
